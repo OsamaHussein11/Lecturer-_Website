@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+          <html lang="en">
+              <head>
+                <meta charset="UTF-8">
+                <title>Contact</title>
+
+                <style>
+                  h1{
+                    text-align: center;
+                    color: #15162e;
+                    font-size: 35px;
+                  }
+                  h2{
+                    color: #15162e;
+                    font-size: 20px;
+                    margin-left: 30px;
+                    margin-right: 10px;
+                    text-align: left;
+                    margin-top: 17px;
+                    margin-bottom: 15px;
+                  }
+                  nav ul{
+                    list-style: none;
+                    padding: 13px 0 ;
+                    text-align: center ;
+                    background: #1e1e4a;
+                    border-radius: 30px;
+                    margin: 15px;
+                  }
+                  nav ul li{
+                    display: inline;
+                    margin: 0 15px ;
+                    color: white ;
+                  }
+                  nav ul li a{
+                    text-decoration: none ;
+                    color: #ffffff ;
+                    font-size: 18px;
+                  }
+                  nav ul li a:hover{
+                    color: gold;
+                    transition: color 1.5s;
+                    border-radius: 10px;
+                  }
+
+                  form{
+
+                    border-radius: 30px;
+                    background: rgba(30, 30, 74, 0.15);
+                    width: 450px;
+                    font-size: 10px;
+                    margin: auto;
+                    padding: 10px;
+                    text-align: center;
+                  }
+                  label{
+
+                    font-weight: bold;
+                    font-size: 20px;
+                    display: flex;
+                    margin: 0 30px 0 30px;
+                  }
+
+                  input[type=text], input[type=email] {
+                    width: 340px;
+                    border-radius: 5px;
+                    font-size: 17px;
+                    padding: 5px;
+                    border: 1px solid #1e1e4a;
+                    margin-bottom: 10px;
+                    margin-top: 5px;
+
+                  }
+                  select {
+                    border-radius: 5px;
+                    font-size: 20px;
+                    text-align: center;
+                    width: 350px;
+                    margin: auto;
+                    padding: 5px;
+
+                  }
+
+                  input[type=submit] {
+                    width: 350px ;
+                    border-radius: 5px ;
+                    font-size: 20px;
+                    border: 1px solid #1e1e4a;
+                    margin-top: 17px;
+                    margin-bottom: 15px;
+                    padding: 5px;
+
+                   }
+
+                  textarea{
+                    width: 340px;
+                    border-radius: 5px;
+                    font-size: 17px;
+                    padding: 5px;
+                    border: 1px solid #1e1e4a;
+
+                  }
+                  p{
+                    color: #1e1e4a;
+                    margin-left: 20px;
+                    margin-right: 10px;
+                    font-size: 23px;
+                  }
+                  li {
+                    padding: 5px;
+                    margin-left: 20px;
+                    font-size: 18px;
+                  }
+
+                  footer {
+                    text-align: center;
+                    background: #1e1e4a;
+                    color: #ffffff;
+                    border-radius: 30px;
+                    margin: 20px;
+                    padding:1px;
+                  }
+                  footer h4 {
+                    margin: 5px 0;
+
+                  }
+
+                  </style>
+              </head>
+          <body>
+          <header>
+            <h1>Welcome to Dr.James Holley's Website</h1>
+
+            <nav>
+              <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+
+              </ul>
+            </nav>
+          </header>
+
+          <main>
+            <form>
+
+                <label for="username">Name:</label><br>
+                <input type="text" id="username" name="username" placeholder="Your name.. " required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your email.." required><br>
+
+               <h2>Subject:</h2>
+
+                <label><select name="subject:" id="subject">
+                  <option>Inquiry</option>
+                  <option>Feedback</option>
+                  <option>Other</option>
+                </select> </label><br>
+
+                <h2>Message:</h2>
+                <label for="message"></label><textarea name="message" id="message" cols="10" rows="4"></textarea><br>
+                <input type="submit" value="Submit"><br>
+
+
+            </form>
+            <br><br>
+            <hr style="margin-left: 20px; margin-right: 20px; ">
+
+            <p>For any questions, please contact the lecturer:</p>
+            <ul>
+              <li>Email: <a href="mailto:osama.hussein.ashour@gmail.com">osama.hussein.ashour@gmail.com</a></li>
+              <li>Office Location: Second Floor, Hassouna Building, Al-Zaytoun District, Gaza Strip, Palestine.</li>
+            </ul>
+
+
+          </main>
+
+          <br>
+          <footer>
+            <h4>&copy; 2025 All rights reserved | <a href="/privacy-policy" style="color: white;">Privacy Policy</a></h4>
+            <h4>Dr.James Holley</h4>
+          </footer>
+
+</body>
+</html>
